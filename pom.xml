@@ -67,5 +67,18 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <!-- CHANGE HERE by your team nexus server -->
+      <url>http://http://13.126.124.12:8087/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <!-- CHANGE HERE by your team nexus server -->
+      <url>http:http://13.126.124.12:8087/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>	
+	
 <!--     <finalName>payslip</finalName> -->
 </project>
