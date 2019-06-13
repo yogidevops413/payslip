@@ -67,18 +67,19 @@
       </plugin>
     </plugins>
   </build>
-  <distributionManagement>
+	
+ <distributionManagement>
     <repository>
-      <id>releases</id>
-      <!-- CHANGE HERE by your team nexus server -->
-      <url>http://13.234.119.173:8056/repository/maven-releases/</url>
+        <id>central</id>
+        <name>d00f8537217a-releases</name>
+        <url>http://13.234.119.173:8081/artifactory/jenkins-snapshort</url>
     </repository>
     <snapshotRepository>
-      <id>snapshots</id>
-      <!-- CHANGE HERE by your team nexus server -->
-      <url>http://13.234.119.173:8056/repository/maven-snapshots/</url>
+        <id>snapshots</id>
+        <name>d00f8537217a-snapshots</name>
+        <url>http://13.234.119.173:8081/artifactory/jenkins-snapshort</url>
     </snapshotRepository>
-  </distributionManagement>	
+</distributionManagement>	
 	
 <!--     <finalName>payslip</finalName> -->
 </project>
