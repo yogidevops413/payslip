@@ -72,12 +72,12 @@
     <repository>
         <id>central</id>
         <name>d00f8537217a-releases</name>
-        <url>http://13.235.115.209:8081/artifactory/jenkins-snapshort</url>
+        <url>http://13.232.166.143:8081/artifactory/jenkins-snapshort</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>d00f8537217a-snapshots</name>
-        <url>http://13.235.115.209:8081/artifactory/jenkins-snapshort</url>
+        <url>http://13.232.166.143:8081/artifactory/jenkins-snapshort</url>
     </snapshotRepository>
 </distributionManagement>	
 	
